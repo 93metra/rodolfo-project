@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("./fonts/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  src: url("./fonts/Inter-Black.woff2") format("woff2");
+}
+
+/* My */
+@font-face {
+  font-family: 'Rubik Mono One';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/RubikMonoOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src:
+    local('RobotoMono'),
+    url('./fonts/RobotoMono-VariableFont_wght.ttf') format('truetype supports variations'),
+        url('./fonts/RobotoMono-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 400 785;
+  font-display: swap;
+}
