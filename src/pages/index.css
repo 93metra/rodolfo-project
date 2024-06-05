@@ -27,7 +27,10 @@
 .page {
   width: 100%;
   min-height: 100vh;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-image: url(../images/background-bricks.jpg);
+  background-attachment: fixed;
+  background-size: cover;
   font-family: var(--main-font);
   margin: 0;
   display: flex;
@@ -131,6 +134,7 @@
   align-self: center;
   overflow: hidden;
   box-shadow: 0px 0px 4px var(--accent-color);
+  /* background-color: rgba(81, 81, 81, 0.2); */
 }
 
 .header__caption {
@@ -231,7 +235,11 @@
 .phase {
   width: 300px;
   border-bottom: 2px solid var(--accent-background-color);
-  border-left: 2px solid var(--accent-background-color);
+  /* border-left: 2px solid var(--accent-background-color); */
+}
+
+.phase:nth-child(2) {
+  margin-top: 30px;
 }
 
 .phase__title {
@@ -249,12 +257,15 @@
 }
 
 .phase__content li {
-  padding-left: 5px;
+  /* padding-left: 5px; */
+  padding: 0 10px;
+
   /* list-style: trad-chinese-informal; */
-  /* list-style: circle; */
-  list-style: square;
+  list-style: circle inside;
+  /* list-style: square; */
   font-size: 19px;
   margin-bottom: 10px;
+  /* text-align: center; */
 }
 
 
@@ -269,9 +280,89 @@
   padding: 0;
 } */
 
+/* ==========tokenomiks============ */
+
+.tokenomiks {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenomiks__title {
+  margin-bottom: 40px;
+}
+
+.chart__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pie-chart {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-image: conic-gradient(#6D3B47 70%, #BA2C73 70%, #BA2C73 85%, #282F44 85%, #282F44 95%, #4B88A2 95%, #4B88A2 100%);
+  /* transform: rotateY(180deg); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--accent-background-color);
+  box-shadow: 0px 0px 7px var(--accent-color);
+}
+
+.chart__image {
+  height: 100px;
+  animation: rotateinfinite 4s linear infinite;
+}
+
+.chart__info-list {
+  padding: 20px;
+  border: 3px solid var(--accent-background-color);
+  box-shadow: 0px 0px 7px var(--accent-color);
+  border-radius: 5px;
+}
+
+.chart__item {
+  display: flex;
+}
+
+.chart__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.chart__percentage {
+  font-size: 25px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.liquidity {
+  color: #6D3B47;
+}
+
+.developers {
+  color: #BA2C73;
+}
+
+.preventa {
+  color: #282F44;
+}
+
+.marketing {
+  color: #4B88A2;
+}
+
+.chart__text {
+  font-size: 19px;
+}
 
 
-/* ==============  keyframes ================= */
+
+/* ==============keyframes================= */
 @keyframes scroll {
   from {
     transform: translateX(0%);
@@ -314,5 +405,14 @@
   }
   to {
     transform: rotateY(-540deg);
+  }
+}
+
+@keyframes rotateinfinite {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
   }
 }
