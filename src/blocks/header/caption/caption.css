@@ -1,0 +1,32 @@
+/* =============scroll=============== */
+.scroll-container {
+  color: var(--accent-color);
+  width: 90%;
+  align-self: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px var(--accent-color);
+  background-color: rgba(81, 81, 81, 0.2);
+  /* border-left: 2px solid #EA954F;
+  border-right: 2px solid #EA954F; */
+}
+
+.header__caption {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px 0;
+  animation: scroll 30s linear infinite;
+  white-space: nowrap;
+  text-shadow: 0px 0px 9px white;
+  /* color: #FFFADE; */
+  font-family: var(--accent-font);
+}
+
+/* ==============keyframes================= */
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
