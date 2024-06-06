@@ -83,24 +83,42 @@ rgba(81, 81, 81, 0.2) grey transparent background */
 }
 
 .logo__img {
+  margin-left: 7px;
+  margin-top: 5px;
   inline-size: 150px;
   aspect-ratio: 1/1;
   backface-visibility: hidden;
 }
 
+.logo__img-wrapper_reverse {
+  display: grid;
+  place-content: center;
+  margin-inline-end: 30px;
+  justify-content: center;
+  inline-size: 175px;
+  block-size: 175px;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: absolute;
+  backface-visibility: hidden;
+  left: -2px;
+    transform: rotateY(180deg);
+}
+
 .logo__img-reverse {
-  inline-size: 170px;
+  inline-size: 150px;
   aspect-ratio: 1/1;
   position: absolute;
+  left: 5px;
   top: 5px;
-  transform: rotateY(180deg);
   backface-visibility: hidden;
+  border-radius: 50%;
 }
 
 .logo__img-wrapper:hover  {
   animation: rotate 2s ease;
 }
-.logo__img-wrapper:hover .logo__img-reverse  {
+.logo__img-wrapper:hover .logo__img-wrapper_reverse  {
   animation: rotateReverse 2s ease;
 }
 
