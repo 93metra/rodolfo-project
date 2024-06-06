@@ -1,15 +1,6 @@
 import '../pages/index.css';
 
-const testButton = document.querySelector('.intro_button');
-const radMapSection = document.querySelector('.roadmap__section')
 
-radMapSection.addEventListener('mouseover', () => {
-  testButton.classList.add('button-active')
-})
-
-radMapSection.addEventListener('mouseout', () => {
-  testButton.classList.remove('button-active')
-})
 
 
 

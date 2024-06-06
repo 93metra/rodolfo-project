@@ -17,11 +17,21 @@
   --background-color: #FFCB79;
   --accent-background-color: #ee8eff;
   --main-text-color: #2d024e;
-  --main-font: 'RobotoMono', monospace, sans-serif;
-  /* --accent-color: rgb(12, 10, 40); */
-  /* --accent-color: #2d024e; purp like in laika*/
+  --main-font: 'OpenSans', sans-serif;
+  --accent-font: 'RobotoMono', monospace, sans-serif;
+  --background-accent: rgba(81, 81, 81, 0.1);
 }
 
+/* background accents
+rgba(234, 149, 79, .2) brown transparent background 
+rgba(81, 81, 81, 0.2) grey transparent background */
+
+/* rodolfo colors 
+#EA954F light brown
+#976B40 dark brown
+#FFFADE cream
+#2D024E dark nose
+*/
 
 /* =============== page ================= */
 .page {
@@ -32,6 +42,8 @@
   background-attachment: fixed;
   background-size: cover;
   font-family: var(--main-font);
+  font-weight: 530;
+  font-size: 20px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -104,6 +116,8 @@
   inline-size: 100%;
   border-top: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
+  /* background-color: rgba(81, 81, 81, 0.2); */
+
 }
 
 .nav__list {
@@ -121,6 +135,11 @@
   padding: 6px 17px;
   border: 1px solid currentColor; 
   border-radius: 30px;
+  background-color: var(--background-accent);
+  text-shadow: 0px 0px 9px white;
+  /* font-family: var(--main-font); */
+  font-weight: 500;
+  text-transform: uppercase;
 } 
 
 .nav__list-item:not(:last-child) {
@@ -134,15 +153,18 @@
   align-self: center;
   overflow: hidden;
   box-shadow: 0px 0px 4px var(--accent-color);
-  /* background-color: rgba(81, 81, 81, 0.2); */
+  background-color: rgba(81, 81, 81, 0.2);
 }
 
 .header__caption {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
   padding: 10px 0;
   animation: scroll 30s linear infinite;
   white-space: nowrap;
+  text-shadow: 0px 0px 9px white;
+  /* color: #FFFADE; */
+  font-family: var(--accent-font);
 }
 
 /* =================intro=================== */
@@ -156,8 +178,9 @@
 }
 
 .section-title {
-  font-size: 40px;
+  font-size: 45px;
   padding: 50px;
+  font-family: var(--accent-font);
 }
 
 .intro__cards-list {
@@ -173,13 +196,14 @@
   padding: 20px;
   height: 200px;
   width: 300px;
-  font-size: 20px;
   line-height: 1.3;
-  box-shadow: 0px 0px 7px var(--accent-color);
+  box-shadow: 0px 0px 9px var(--accent-color);
   border-radius: 5px;
-  border: 3px solid var(--accent-background-color);
+  border: 3px solid #EA954F;
+  /* border: 3px solid #976B40; */
   transition: .3s;
-
+  background-color: var(--background-accent);
+  text-shadow: 0px 0px 9px white;
 }
 
 .card_bigger {
@@ -197,6 +221,7 @@
 }
 
 .intro__slogan {
+  font-family: var(--accent-font);
   font-size: 24px;
   font-weight: normal;
   margin: 0 35px;
@@ -232,9 +257,13 @@
   width: 100%;
 }
 
+/* .phase__content-container {
+  height: 100%;
+} */
+
 .phase {
   width: 300px;
-  border-bottom: 2px solid var(--accent-background-color);
+  border-bottom: 2px solid #EA954F;
   /* border-left: 2px solid var(--accent-background-color); */
 }
 
@@ -243,11 +272,13 @@
 }
 
 .phase__title {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 10px;
-  border-bottom: 2px solid var(--accent-background-color);
+  border-bottom: 2px solid #EA954F;
   line-height: 1.5;
   text-align: center;
+  padding: 15px 0;
+
 }
 
 .phase__content {
@@ -257,15 +288,21 @@
 }
 
 .phase__content li {
+  cursor: default;
   /* padding-left: 5px; */
   padding: 0 10px;
 
   /* list-style: trad-chinese-informal; */
   list-style: circle inside;
   /* list-style: square; */
-  font-size: 19px;
+  /* font-size: 19px; */
   margin-bottom: 10px;
   /* text-align: center; */
+  transition: .3s;
+}
+
+.phase__content li:hover {
+  transform: scale(1.2);
 }
 
 
@@ -305,25 +342,28 @@
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  background-image: conic-gradient(#6D3B47 70%, #BA2C73 70%, #BA2C73 85%, #282F44 85%, #282F44 95%, #4B88A2 95%, #4B88A2 100%);
+  background-image: conic-gradient(#EA954F 70%, #976B40 70%, #976B40 85%, #FFFADE 85%, #FFFADE 95%, #2D024E 95%, #2D024E 100%);
   /* transform: rotateY(180deg); */
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--accent-background-color);
+  border: 3px solid #EA954F;
   box-shadow: 0px 0px 7px var(--accent-color);
 }
 
 .chart__image {
   height: 100px;
+  aspect-ratio: 1/1;
   animation: rotateinfinite 4s linear infinite;
 }
 
 .chart__info-list {
   padding: 20px;
-  border: 3px solid var(--accent-background-color);
+  border: 3px solid #EA954F;
   box-shadow: 0px 0px 7px var(--accent-color);
   border-radius: 5px;
+  text-shadow: 0px 0px 9px white;
+  background-color: rgba(81, 81, 81, 0.2);
 }
 
 .chart__item {
@@ -341,24 +381,24 @@
 }
 
 .liquidity {
-  color: #6D3B47;
+  color: #EA954F;
 }
 
 .developers {
-  color: #BA2C73;
+  color: #976B40;
 }
 
 .preventa {
-  color: #282F44;
+  color: #FFFADE;
 }
 
 .marketing {
-  color: #4B88A2;
+  color: #2D024E;
 }
 
-.chart__text {
+/* .chart__text {
   font-size: 19px;
-}
+} */
 
 
 

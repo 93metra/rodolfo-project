@@ -33,6 +33,16 @@
     local('RobotoMono'),
     url('./fonts/RobotoMono-VariableFont_wght.ttf') format('truetype supports variations'),
         url('./fonts/RobotoMono-VariableFont_wght.ttf') format('truetype-variations');
-    font-weight: 400 785;
+    font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src:
+    local('OpenSans'),
+    url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype supports variations'),
+        url('./fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype-variations');
+    font-weight: 400 700;
   font-display: swap;
 }
