@@ -39,7 +39,7 @@
 
 .title {
   font-family: 'Rubik Mono One';
-  font-size: 100px;
+  font-size: clamp(3.125rem, 2.2321rem + 4.4643vw, 6.25rem); /*100 50px 320 1440*/
   color: var(--accent-color);
   text-shadow: -2px 2px 2px var(--accent-color);
   text-transform: uppercase;
@@ -58,4 +58,39 @@
 .animation-rotate  {
   animation: rotate 2s ease;
   background-color: rgba(234, 149, 79, 0.2);
+}
+
+/* media */
+
+@media (width <= 430px) {
+  
+}
+
+@media (width <= 768px) {
+  .logo-wrapper {
+    flex-direction: column;
+  }
+
+  .title {
+    margin: 2rem 0 0;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+ 
+
+  .nav__list-item:not(:last-child) {
+    margin: 0 0 clamp(1.0625rem, 0.8304rem + 1.1607vw, 1.875rem); /* 30 17*/
+  }
+
+
+  /* .intro__slogan {
+    font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
+  } */
+}
+
+@media (429px <= width <= 768px) {
+
 }

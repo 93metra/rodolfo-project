@@ -1,25 +1,24 @@
 /* =============== nav ================= */
 .nav {
-  inline-size: 100%;
+  width: 100%;
   border-top: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
-  /* background-color: rgba(81, 81, 81, 0.2); */
-
 }
 
 .nav__list {
-  
+  /* width: 90%; */
   display: flex;
-  justify-content: space-evenly;
-  padding: 30px 30%;
-  margin: 0 50px;
+  justify-content: center;
+  padding: clamp(0.9375rem, 0.6696rem + 1.3393vw, 1.875rem) 0; /* 30 15*/
+  /* margin: 0 50px; */
 }
 
 .nav__list-link {
   text-decoration: none;
   color: var(--accent-color);
-  font-size: 24px;
-  padding: 6px 17px;
+  /* font-size: 24px; */
+  font-size: clamp(0.75rem, 0.5357rem + 1.0714vw, 1.5rem); /*24 12px*/
+  padding: clamp(0.25rem, 0.2143rem + 0.1786vw, 0.375rem) clamp(0.875rem, 0.8214rem + 0.2679vw, 1.0625rem); /* 6-4 17-14*/
   border: 2px solid #EA954F; 
   border-radius: 30px;
   /* background-color: rgba(81, 81, 81, 0.2); */
@@ -46,5 +45,5 @@
 }
 
 .nav__list-item:not(:last-child) {
-  margin-right: 20px;
+  margin: 0 20px 0 0;
 }
