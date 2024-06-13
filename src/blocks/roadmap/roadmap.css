@@ -9,8 +9,8 @@
 
 .phase__list {
   display: flex;
-  justify-content: space-around;
-  /* gap: 60px; */
+  justify-content: center;
+  gap: clamp(1.25rem, 0.9821rem + 1.3393vw, 2.1875rem);
   width: 100%;
 }
 

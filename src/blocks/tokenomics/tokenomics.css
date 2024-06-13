@@ -20,8 +20,7 @@
 
 .pie-chart {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  inline-size: 300px;
   background-image: conic-gradient(#EA954F 70%, #976B40 70%, #976B40 85%, #FFFADE 85%, #FFFADE 95%, #2D024E 95%, #2D024E 100%);
   /* transform: rotateY(180deg); */
   display: flex;
@@ -29,6 +28,7 @@
   justify-content: center;
   border: 3px solid #EA954F;
   box-shadow: 0px 0px 7px var(--accent-color);
+  aspect-ratio: 1/1;
 }
 
 .chart__image {

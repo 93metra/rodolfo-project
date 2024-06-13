@@ -28,6 +28,7 @@
   border-radius: 50%;
   transition: .3s;
   perspective: 50px;
+  cursor: pointer;
 }
 
 .logo__img {
@@ -43,6 +44,7 @@
   color: var(--accent-color);
   text-shadow: -2px 2px 2px var(--accent-color);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* ==============keyframes================= */
@@ -62,8 +64,16 @@
 
 /* media */
 
-@media (width <= 430px) {
-  
+/* @media (width <= 430px) {
+  .header {
+    block-size: auto;
+  } for tablets, do after all
+} */
+
+@media (1024px <= height ) {
+  section {
+
+  }
 }
 
 @media (width <= 768px) {
