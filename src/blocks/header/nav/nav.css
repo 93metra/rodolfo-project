@@ -47,3 +47,16 @@
 .nav__list-item:not(:last-child) {
   margin: 0 20px 0 0;
 }
+
+/* media */
+
+@media (width <= 768px) {
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__list-item:not(:last-child) {
+    margin: 0 0 clamp(1.0625rem, 0.7946rem + 1.3393vw, 1.4375rem); /*23 17px*/
+  }
+
+}
