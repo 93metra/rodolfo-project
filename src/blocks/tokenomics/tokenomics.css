@@ -32,9 +32,9 @@
 }
 
 .chart__image {
-  height: 100px;
+  inline-size: 100px;
   aspect-ratio: 1/1;
-  animation: spin 4s linear infinite;
+  cursor: pointer;
 }
 
 .chart__info-list {
@@ -97,5 +97,31 @@
   }
   to {
     transform: rotateZ(360deg);
+  }
+}
+
+.animation-spin {
+  animation: spin 4s linear infinite;
+}
+
+/* media */
+
+@media (width < 768px) {
+  .tokenomics {
+    height: auto;
+    margin-block-end: clamp(1.25rem, 0.8036rem + 2.2321vw, 1.875rem);/*30 20px*/
+  }
+
+  .chart__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .pie-chart {
+    inline-size: clamp(15.625rem, 13.3929rem + 11.1607vw, 18.75rem); /*300 250px*/
+  }
+
+  .chart__percentage {
+    font-size: clamp(1.25rem, 1.0268rem + 1.1161vw, 1.5625rem);/*25 20px*/
   }
 }

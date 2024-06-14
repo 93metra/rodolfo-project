@@ -4,6 +4,8 @@ import '../pages/index.css';
 const logo = document.querySelector('.logo__img-wrapper');
 const title = document.querySelector('.title');
 
+const pieChartImage = document.querySelector('.chart__image');
+
 // functions
 function spinLogo() {
   if(!logo.classList.contains('animation-rotate')) {
@@ -14,6 +16,10 @@ function spinLogo() {
       logo.classList.remove('animation-rotate');
     }, 2000);
   }
+}
+
+function spinPieChartImg() {
+  pieChartImage.classList.toggle('animation-spin');
 }
 
 // listeners
@@ -29,3 +35,6 @@ logo.addEventListener('click', () => {
   spinLogo()
 })
 
+pieChartImage.addEventListener('click', () => {
+  spinPieChartImg()
+})
