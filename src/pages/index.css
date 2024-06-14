@@ -31,7 +31,7 @@ rgba(81, 81, 81, 0.2) grey transparent background */
 /* =============== page ================= */
 .page {
   min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* background-color: var(--background-color); */
   background-image: url(../images/background-bricks2.jpg);
   background-attachment: fixed;
