@@ -11,6 +11,7 @@
   justify-content: center;
   padding: clamp(0.9375rem, 0.6696rem + 1.3393vw, 1.875rem) 0; /* 30 15*/
   /* margin: 0 50px; */
+  backdrop-filter: blur(2px);
 }
 
 .nav__list-link {

@@ -6,6 +6,7 @@
   overflow: hidden;
   color: var(--accent-color);
   background-color: rgba(81, 81, 81, 0.2);
+  backdrop-filter: blur(1px);
 }
 
 .header__caption {
