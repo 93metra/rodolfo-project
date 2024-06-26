@@ -53,11 +53,12 @@
 
 @media (width <= 768px) {
   .nav__list {
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: block;
   }
 
   .nav__list-item:not(:last-child) {
-    margin: 0 0 clamp(1.0625rem, 0.7946rem + 1.3393vw, 1.4375rem); /*23 17px*/
+    margin: 0 0 clamp(1.25rem, 1.0268rem + 1.1161vw, 1.5625rem);/* 25 20 */
   }
 
 }

@@ -78,22 +78,20 @@
 
 @media (width <= 768px) {
   .logo-wrapper {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
 
   .title {
     margin: 2rem 0 0;
   }
 
-  .nav__list {
-    flex-direction: column;
-  }
 
  
 
-  .nav__list-item:not(:last-child) {
-    margin: 0 0 clamp(1.25rem, 1.0268rem + 1.1161vw, 1.5625rem); /* 25 20*/
-  }
+  /* .nav__list-item:not(:last-child) { */
+    /* margin: 0 0 clamp(1.25rem, 1.0268rem + 1.1161vw, 1.5625rem); 25 20 */
+  /* } */
 
 
   /* .intro__slogan {

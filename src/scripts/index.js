@@ -38,3 +38,29 @@ logo.addEventListener('click', () => {
 pieChartImage.addEventListener('click', () => {
   spinPieChartImg()
 })
+
+// up-button animation
+document.addEventListener('DOMContentLoaded', function() {
+  const header = document.querySelector('.header');
+  const upButton = document.querySelector('.up-button');
+
+  const observerOptions = {
+      root: null, 
+      rootMargin: '0px',
+      threshold: 0 
+  };
+
+  const observerCallback = (entries, observer) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              upButton.classList.remove('is-visible');
+          } else {
+              upButton.classList.add('is-visible');
+          }
+      });
+  };
+
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+  observer.observe(header);
+});

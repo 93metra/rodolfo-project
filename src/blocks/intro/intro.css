@@ -82,7 +82,8 @@
   }
 
   .intro__cards-list {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
 
   .card {

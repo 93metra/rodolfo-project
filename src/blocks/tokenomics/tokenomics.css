@@ -114,7 +114,8 @@
   }
 
   .chart__container {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     gap: 40px;
   }
 
