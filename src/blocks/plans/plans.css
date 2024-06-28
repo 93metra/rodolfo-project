@@ -1,0 +1,64 @@
+/* plans */
+.plans {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plans__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-block-end: 50px;
+}
+
+.plans__card {
+  text-align: center;
+  inline-size: 500px;
+  block-size: auto;
+  padding: 20px;
+  /* border: 3px solid #EA954F; */
+  box-shadow: 0px 0px 3px var(--accent-color);
+  border-radius: 5px;
+  text-shadow: 0px 0px 9px white;
+  background-color: var(--background-accent);
+  backdrop-filter: blur(5px);
+  border-top: 2px solid #EA954F;
+  border-bottom: 2px solid #EA954F;
+  transition: .2s;
+}
+
+.plans__card:hover {
+  /* border-top: 4px solid #EA954F;
+  border-bottom: 4px solid #EA954F; */
+  background-color: var(--background-accent-active);
+}
+
+.plans__logo {
+  inline-size: 160px;
+  aspect-ratio: 1/1;
+  margin-block-end: 10px;
+}
+
+.plans__price {
+  margin-block-end: 10px;
+}
+
+.one {
+  font-size: 20px;
+}
+
+.three {
+  font-size: 23px;
+}
+
+.five {
+  font-size: 27px;
+}
+
+.ten {
+  font-size: 31px;
+}

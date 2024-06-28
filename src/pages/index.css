@@ -5,6 +5,7 @@
 @import url('../blocks/roadmap/roadmap.css');
 @import url('../blocks/tokenomics/tokenomics.css');
 @import url('../blocks/up-button/up-button.css');
+@import url('../blocks/plans/plans.css');
 
 /* =============== root ================ */
 :root {

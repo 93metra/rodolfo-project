@@ -12,6 +12,7 @@
 }
 
 .chart__container {
+  margin-block-start: 60px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -114,6 +115,7 @@
   }
 
   .chart__container {
+    margin-block-start: clamp(0rem, -1.1004rem + 4.6948vw, 3.125rem);
     /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 40px;
