@@ -1,4 +1,5 @@
 import '../pages/index.css';
+import { langArr } from '../scripts/lang';
 
 // constants
 const logo = document.querySelector('.logo__img-wrapper');
@@ -64,3 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   observer.observe(header);
 });
+
+// ================== lang ========================
+document.querySelector('.lng-caption').textContent = langArr['lng-caption']['es']
+document.querySelector('.lng-phase_one').textContent = langArr['lng-phase_one']['en']

@@ -6,7 +6,7 @@
   block-size: auto;
   border-block-start: 3px solid var(--background-color);
   padding: 25px 0;
-  /* background-color: var(--background-accent); */
+  background-color: var(--background-accent);
   backdrop-filter: blur(2px);
 }
 
