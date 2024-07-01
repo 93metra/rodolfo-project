@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: clamp(1.25rem, 0.9821rem + 1.3393vw, 2.1875rem);/*20 35px*/
+  gap: clamp(1.25rem, 0.5898rem + 2.8169vw, 3.125rem);/*50 20px*/
   /* width: 100%; */
 }
 
@@ -26,6 +26,8 @@
   background-color: var(--background-accent);
   transition: .2s;
   backdrop-filter: blur(5px);
+  /* display: flex;
+  align-items: center; */
 }
 
 .phase__content-container:hover {

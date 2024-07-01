@@ -1,0 +1,22 @@
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  inline-size: 100%;
+  block-size: auto;
+  border-block-start: 3px solid var(--background-color);
+  padding: 25px 0;
+  /* background-color: var(--background-accent); */
+  backdrop-filter: blur(2px);
+}
+
+.footer__disclaimer {
+  font-size: clamp(0.75rem, 0.7143rem + 0.1786vw, 0.875rem);/* 14 12*/
+  text-align: center;
+  inline-size: clamp(12.5rem, 8.9286rem + 17.8571vw, 25rem);/*400 200*/
+  block-size: auto;
+}
+
+.footer__disclaimer span {
+  font-weight: bold;
+}

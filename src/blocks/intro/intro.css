@@ -11,6 +11,7 @@
   font-size: clamp(1.5625rem, 1.2054rem + 1.7857vw, 2.8125rem); /*45 25px*/
   margin: 50px 0;
   font-family: var(--accent-font);
+  text-align: center;
 }
 
 .intro__cards-list {

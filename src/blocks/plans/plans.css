@@ -1,7 +1,7 @@
 /* plans */
 .plans {
-  width: 90%;
-  height: 100vh;
+  inline-size: 90%;
+  block-size: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@
 
 .plans__card {
   text-align: center;
-  inline-size: 500px;
+  inline-size: clamp(15.625rem, 11.1607rem + 22.3214vw, 31.25rem);/*500 250*/
   block-size: auto;
   padding: 20px;
   /* border: 3px solid #EA954F; */
@@ -38,10 +38,26 @@
 }
 
 .plans__logo {
-  inline-size: 160px;
+  inline-size: clamp(6.875rem, 6.3393rem + 2.6786vw, 8.75rem);/*140 110*/
   aspect-ratio: 1/1;
   margin-block-end: 10px;
 }
+/* 
+.head_one {
+  inline-size: 120px;
+}
+
+.head_two {
+  inline-size: 140px;
+}
+
+.head_three {
+  inline-size: 150px;
+}
+
+.head_four {
+  inline-size: 180px;
+} */
 
 .plans__price {
   margin-block-end: 10px;
