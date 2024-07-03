@@ -47,7 +47,7 @@
           <a href="#plans" class="nav__list-link">Plans</a>
         </li>
         <li class="nav__list-item">
-          <a href="" class="nav__list-link">Links</a>
+          <a href="#links" class="nav__list-link">Links</a>
         </li>
       </ul>
     </nav>
@@ -129,16 +129,20 @@
       </div>
       <ul class="chart__info-list">
         <li class="chart__item">
-          <p class="chart__text"><span class="chart__percentage liquidity">70%</span>Liquidity Pool</p>
+          <span class="chart__percentage liquidity">70%</span>
+          <p class="chart__text">Liquidity Pool</p>
         </li>
         <li class="chart__item">
-          <p class="chart__text lng-teem"><span class="chart__percentage developers">15%</span>Equipo y Developers</p>
+          <span class="chart__percentage developers">15%</span>
+          <p class="chart__text lng-teem">Equipo y Developers</p>
         </li>
         <li class="chart__item">
-          <p class="chart__text lng-token_pres"><span class="chart__percentage preventa">10%</span>Preventa</p>
+          <span class="chart__percentage preventa">10%</span>
+          <p class="chart__text lng-token_pres">Preventa</p>
         </li>
         <li class="chart__item">
-          <p class="chart__text lng-token_mark"><span class="chart__percentage marketing">5%</span>Cartera de Marketing</p>
+          <span class="chart__percentage marketing">5%</span>
+          <p class="chart__text lng-token_mark">Cartera de Marketing</p>
         </li>
       </ul>
     </div>
@@ -172,8 +176,39 @@
     </div>
   </section>
 
+  <section class="links" id="links">
+    <h2 class="links__title section-title" title="Links section">Links</h2>
+    <div class="links__wrapper">
+      <img src="<%=require('./images/logo5.png')%>" alt="Laika Logo" class="links__img links__img_left">
+      <ul class="links__social-list">
+        <li class="social-list__item">
+          <a href="https://twitter.com/RODOLFOmemecoin" class="social-list__link" title="X" target="_blank">
+            <img class="social-list__image social-list__image_smaller" src="<%=require('./images/social/twitter.png')%>" alt="'X' logo">
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://t.me/PortalRODOLFO/6" class="social-list__link" title="telegram" target="_blank">
+            <img class="social-list__image" src="<%=require('./images/social/telegram.png')%>" alt="'X' logo">
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="#tokenomics" class="social-list__link" title="tinder">
+            <img class="social-list__image" src="<%=require('./images/social/tinder.png')%>" alt="'X' logo">
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="#" class="social-list__link" title="instagram">
+            <img class="social-list__image" src="<%=require('./images/social/instagram.png')%>" alt="'X' logo">
+          </a>
+        </li>
+      </ul>
+      <img src="<%=require('./images/logo3.png')%>" alt="Laika Logo" class="links__img links__img_right">
+    </div>
+  </section>
+
   <footer class="footer">
-    <p class="footer__disclaimer lng-footer_disc">®<span class="lng-footer_span">Aviso legal:</span> $RODOLFO es una memecoin sin valor intriseco ni expectativa de rendimiento financiero. $RODOLFO es completamente inutil y se ha creado con fines recreativos y de entretenimiento. Al comprar $RODOLFO, aceptas haber leido este descargo de responsabilidad.</p>
+    <span class="lng-footer_span"></span>
+    <p class="footer__disclaimer lng-footer_disc">®Aviso legal: $RODOLFO es una memecoin sin valor intriseco ni expectativa de rendimiento financiero. $RODOLFO es completamente inutil y se ha creado con fines recreativos y de entretenimiento. Al comprar $RODOLFO, aceptas haber leido este descargo de responsabilidad.</p>
   </footer>
 </body>
 </html>

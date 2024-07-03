@@ -123,4 +123,4 @@ function checkLanguage() {
   }
 }
 
-checkLanguage()
+// checkLanguage()

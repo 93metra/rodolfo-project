@@ -277,11 +277,11 @@ export const langArr = {
   },
 
   'lng-footer_disc': {
-    'es': ' $RODOLFO es una memecoin sin valor intriseco ni expectativa de rendimiento financiero. $RODOLFO es completamente inutil y se ha creado con fines recreativos y de entretenimiento. Al comprar $RODOLFO, aceptas haber leido este descargo de responsabilidad.',
-    'en': ' $RODOLFO is a memecoin with no intrinsic value or expectation of financial return. $RODOLFO is completely useless and was created for recreational and entertainment purposes. By purchasing $RODOLFO, you agree to have read this disclaimer.',
+    'es': '®Aviso legal: $RODOLFO es una memecoin sin valor intriseco ni expectativa de rendimiento financiero. $RODOLFO es completamente inutil y se ha creado con fines recreativos y de entretenimiento. Al comprar $RODOLFO, aceptas haber leido este descargo de responsabilidad.',
+    'en': '®Legal notice: $RODOLFO is a memecoin with no intrinsic value or expectation of financial return. $RODOLFO is completely useless and was created for recreational and entertainment purposes. By purchasing $RODOLFO, you agree to have read this disclaimer.',
   },
-  'lng-footer_span': {
-    'es': '®Aviso legal:',
-    'en': '®Legal notice:',
-  },
+  // 'lng-footer_span': {
+  //   'es': '®Aviso legal:',
+  //   'en': '®Legal notice:',
+  // },
 }
