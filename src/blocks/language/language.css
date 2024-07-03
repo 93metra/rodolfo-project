@@ -1,0 +1,33 @@
+/* language */
+.language__change-container {
+  position: absolute;
+  left: 49%;
+  top: 30px;
+}
+
+.language__button {
+  cursor: pointer;
+  padding: 5px;
+  border: 2px solid  rgba(81, 81, 81, 0.3);
+  border-radius: 10px;
+  inline-size: 40px;
+  aspect-ratio: 1/1;
+  background-color:  rgba(81, 81, 81, 0.1);
+  transition: .2s;
+  text-shadow: 0px 0px 9px white;
+  font-weight: 600;
+  font-family: var(--accent-font);
+  color: rgba(81, 81, 81, 0.7);
+}
+
+.language__button:hover {
+  border: 2px solid #EA954F; 
+  /* background-color: var(--background-accent-active); */
+  /* color: var(--main-text-color); */
+}
+
+.language__button_active {
+  border: 2px solid #EA954F; 
+  background-color: var(--background-accent-active);
+  color: var(--main-text-color);
+}
