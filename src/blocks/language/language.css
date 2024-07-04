@@ -1,7 +1,7 @@
 /* language */
 .language__change-container {
   position: absolute;
-  left: 49%;
+  /* left: 47%; */
   top: clamp(1.25rem, 1.0714rem + 0.8929vw, 1.875rem);
 }
 
@@ -32,4 +32,11 @@
   background-color: var(--background-accent-active);
   color: var(--main-text-color);
   box-shadow: 0px 0px 8px var(--accent-color);
+}
+
+/* media */
+@media (width <= 540px) {
+  .language__change-container {
+    right: 20px;
+  }
 }

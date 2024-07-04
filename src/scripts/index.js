@@ -67,11 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ================== lang ========================
-// document.querySelector('.lng-caption').textContent = langArr['lng-caption']['es']
-// document.querySelector('.lng-phase_one').textContent = langArr['lng-phase_one']['en']
-// document.querySelector('.lng-slogan').textContent = langArr['lng-slogan']['en']
-// document.querySelector('.lng-slogan__span_one').textContent = langArr['lng-slogan__span_one']['en']
-
 const esButton = document.querySelector('.language__button_es');
 const enButton = document.querySelector('.language__button_en');
 
@@ -80,30 +75,14 @@ esButton.addEventListener('click', (evt) => {
   esButton.classList.toggle('language__button_active');
   enButton.classList.toggle('language__button_active');
   checkLanguage();
-})
+});
 
 enButton.addEventListener('click', (evt) => {
   evt.preventDefault();
   enButton.classList.toggle('language__button_active');
   esButton.classList.toggle('language__button_active');
   checkLanguage();
-})
-
-// function checkLanguage() {
-//   if(esButton.classList.contains('language__button_active')) {
-//     console.log('es');
-//     for(let key in langArr) {
-//       document.querySelector(key);
-//       console.log(key);
-//     }
-//   } else if(enButton.classList.contains('language__button_active')) {
-//     console.log('en');
-//     for(let key in langArr) {
-//       document.querySelector(key);
-//       console.log(key);
-//     }
-//   }
-// }
+});
 
 function checkLanguage() {
   let lang = 'en';
@@ -111,7 +90,7 @@ function checkLanguage() {
     lang = 'es';
   } else if(enButton.classList.contains('language__button_active')) {
     lang = 'en';
-  }
+  };
 
   for(let key in langArr) {
     const elements = document.querySelectorAll(`.${key}`);
@@ -120,7 +99,26 @@ function checkLanguage() {
         element.innerText = langArr[key][lang];
       }
     });
-  }
+  };
 }
 
-// checkLanguage()
+checkLanguage();
+
+// hornDogAnimation
+const tinderButton = document.querySelector('.links__list_relative-item');
+const hornDogText = document.querySelector('.horndog-text');
+
+tinderButton.addEventListener('click', (evt) => {
+  if(!hornDogText.classList.contains('is-visible')) {
+    hornDogText.classList.add('is-visible')
+  };
+  setTimeout(() => {
+    hornDogText.classList.remove('is-visible');
+  }, 300);
+  setTimeout(() => {
+    hornDogText.classList.add('is-visible');
+  }, 600);
+  setTimeout(() => {
+    hornDogText.classList.remove('is-visible');
+  }, 900);
+});

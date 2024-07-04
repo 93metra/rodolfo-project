@@ -12,6 +12,8 @@
   margin: 50px 0;
   font-family: var(--accent-font);
   text-align: center;
+  /* text-shadow: 0px 0px 2px currentColor; */
+  text-shadow: 0px 0px 2px currentColor;
 }
 
 .intro__cards-list {
@@ -51,14 +53,32 @@
 .intro__slogan-container {
   display: flex;
   align-items: center;
+  /* justify-content: center; */
 }
 
 .intro__slogan {
   font-family: var(--accent-font);
   font-size: 24px;
   font-weight: normal;
-  margin: 0 35px;
   text-align: center;
+}
+
+.slogan__text-container {
+  margin: clamp(0.625rem, 0.0748rem + 2.3474vw, 2.1875rem);/*35 10*/
+}
+
+.slogan__line-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.slogan__span {
+  font-size: clamp(1rem,.6429rem + 1.7857vw,1.5rem);
+  margin-inline-start: .3em;
+  font-family: var(--accent-font);
 }
 
 .intro__slogan span {
@@ -108,5 +128,11 @@
   .intro__slogan {
     font-size: clamp(1rem, 0.6429rem + 1.7857vw, 1.5rem);/*24 16px*/
     margin: 0 5px;
+  }
+}
+
+@media (width <= 540px) {
+  .slogan__span {
+    margin: 0;
   }
 }

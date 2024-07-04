@@ -75,7 +75,16 @@
     </ul>
     <div class="intro__slogan-container">
       <img src="<%=require('./images/logo3.png')%>" alt="" class="intro__image intro__image-left">
-      <h3 class="intro__slogan lng-slogan">Queremos hacer <span class="lng-slogan__span_one">historia</span><br> en la comunidad <span>hispana.</span></h3>
+      <div class="slogan__text-container">
+        <div class="slogan__line-container">
+          <h3 class="intro__slogan lng-slogan_line-one">Queremos hacer</h3>
+          <h3 class="slogan__span lng-slogan_span-one">&nbsp;historia</h3>
+        </div>
+        <div class="slogan__line-container">
+          <h3 class="intro__slogan lng-slogan_line-two">en la comunidad</h3>
+          <h3 class="slogan__span lng-slogan_span-two">&nbsp;hispana</h3>
+        </div>
+      </div>
       <img src="<%=require('./images/logo5.png')%>" alt="" class="intro__image intro__image-right">
     </div>
   </section>
@@ -179,30 +188,31 @@
   <section class="links" id="links">
     <h2 class="links__title section-title" title="Links section">Links</h2>
     <div class="links__wrapper">
-      <img src="<%=require('./images/logo5.png')%>" alt="Laika Logo" class="links__img links__img_left">
+      <img loading="lazy" src="<%=require('./images/logo5.png')%>" alt="Laika Logo" class="links__img links__img_left">
       <ul class="links__social-list">
         <li class="social-list__item">
           <a href="https://twitter.com/RODOLFOmemecoin" class="social-list__link" title="X" target="_blank">
-            <img class="social-list__image social-list__image_smaller" src="<%=require('./images/social/twitter.png')%>" alt="'X' logo">
+            <img loading="lazy" class="social-list__image social-list__image_smaller" src="<%=require('./images/social/twitter.png')%>" alt="'X' logo">
           </a>
         </li>
         <li class="social-list__item">
           <a href="https://t.me/PortalRODOLFO/6" class="social-list__link" title="telegram" target="_blank">
-            <img class="social-list__image" src="<%=require('./images/social/telegram.png')%>" alt="'X' logo">
+            <img loading="lazy" class="social-list__image" src="<%=require('./images/social/telegram.png')%>" alt="'X' logo">
           </a>
         </li>
-        <li class="social-list__item">
-          <a href="#tokenomics" class="social-list__link" title="tinder">
-            <img class="social-list__image" src="<%=require('./images/social/tinder.png')%>" alt="'X' logo">
+        <li class="social-list__item links__list_relative-item">
+          <a class="social-list__link" title="tinder">
+            <img loading="lazy" class="social-list__image" src="<%=require('./images/social/tinder.png')%>" alt="'X' logo">
           </a>
+          <span class="horndog-text is-animated">No HornDogs here!</span>
         </li>
         <li class="social-list__item">
           <a href="#" class="social-list__link" title="instagram">
-            <img class="social-list__image" src="<%=require('./images/social/instagram.png')%>" alt="'X' logo">
+            <img loading="lazy" class="social-list__image" src="<%=require('./images/social/instagram.png')%>" alt="'X' logo">
           </a>
         </li>
       </ul>
-      <img src="<%=require('./images/logo3.png')%>" alt="Laika Logo" class="links__img links__img_right">
+      <img loading="lazy" src="<%=require('./images/logo3.png')%>" alt="Laika Logo" class="links__img links__img_right">
     </div>
   </section>
 

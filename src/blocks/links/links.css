@@ -68,3 +68,19 @@
     display: none;
   }
 }
+
+/* joke */
+
+.links__list_relative-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.horndog-text {
+  position: absolute;
+  left: -50%;
+  top: clamp(5rem, 4.5599rem + 1.8779vw, 6.25rem);/*100 80*/
+  inline-size: 200px;
+  color: red;
+  font-family: var(--accent-font);
+}

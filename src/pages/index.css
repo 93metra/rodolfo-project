@@ -38,9 +38,10 @@ rgba(81, 81, 81, 0.2) grey transparent background */
   inline-size: 100%;
   block-size: auto;
   background-color: #EA954F;
-  background-image: url(../images/background-bricks2.jpg);
+  background-image: url(../images/newBackground.jpeg);
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: var(--main-font);
   font-weight: 530;
   font-size: clamp(0.875rem, 0.7679rem + 0.5357vw, 1.25rem);/*20 14px*/
