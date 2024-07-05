@@ -96,6 +96,12 @@
 
 /* media */
 
+@media (width < 1024px) {
+  .intro {
+    height: auto;
+  }
+}
+
 @media (width <= 768px) {
   .intro {
     height: auto;

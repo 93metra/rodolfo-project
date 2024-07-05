@@ -106,6 +106,12 @@
 }
 
 /* media */
+@media (width < 1024px) {
+  .tokenomics {
+    height: auto;
+  }
+}
+
 @media (width < 768px) {
   .tokenomics {
     height: auto;

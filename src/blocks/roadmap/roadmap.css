@@ -75,6 +75,11 @@
 }
 
 /* media */
+@media (width < 1024px) {
+  .roadmap {
+    height: auto;
+  }
+}
 
 @media (width <= 768px) {
 
