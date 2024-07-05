@@ -38,7 +38,7 @@ rgba(81, 81, 81, 0.2) grey transparent background */
   inline-size: 100%;
   block-size: auto;
   background-color: #EA954F;
-  background-image: url(../images/newBackground.jpeg);
+  background-image: url(../images/desktopBackground.jpeg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;

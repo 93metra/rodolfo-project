@@ -12,6 +12,7 @@
   top: 30px;
   right: 30px;
   transition: .1s;
+  color: #2D024E;
 }
 
 .up-button:hover {

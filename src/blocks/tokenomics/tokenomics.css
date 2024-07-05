@@ -21,7 +21,7 @@
 
 .pie-chart {
   border-radius: 50%;
-  inline-size: 300px;
+  inline-size: clamp(18.75rem, 15.1786rem + 7.4405vw, 21.875rem);/*350 300*/
   background-image: conic-gradient(#EA954F 70%, #976B40 70%, #976B40 85%, #FFFADE 85%, #FFFADE 95%, #2D024E 95%, #2D024E 100%);
   /* transform: rotateY(180deg); */
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 .chart__image {
-  inline-size: 100px;
+  inline-size: clamp(6.25rem, 5.7143rem + 2.6786vw, 8.125rem);/*130 100*/
   aspect-ratio: 1/1;
   cursor: pointer;
 }
@@ -55,7 +55,6 @@
   border-top: 4px solid #EA954F;
   border-bottom: 4px solid #EA954F;
   background-color: var(--background-accent-active);
-
 }
 
 .chart__item {
@@ -107,7 +106,6 @@
 }
 
 /* media */
-
 @media (width < 768px) {
   .tokenomics {
     height: auto;
@@ -116,7 +114,6 @@
 
   .chart__container {
     margin-block-start: clamp(0rem, -1.1004rem + 4.6948vw, 3.125rem);
-    /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 40px;
   }
@@ -129,6 +126,3 @@
     font-size: clamp(1.25rem, 1.0268rem + 1.1161vw, 1.5625rem);/*25 20px*/
   }
 }
-
-
-/* intro hover effec fix */
