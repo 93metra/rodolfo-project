@@ -55,8 +55,8 @@ export const langArr = {
     'en': 'Create our X profile',
   },
   'lng-instagram': {
-    'es': 'Crear nuestro Instagram',
-    'en': 'Create our Instagram',
+    'es': 'Crear contenido live action incluyendo nuestro merch',
+    'en': 'Create live action content including our merch',
   },
   'lng-marketing': {
     'es': 'Empezar con las primeras campañas de marketing orgánicas',
@@ -68,24 +68,24 @@ export const langArr = {
     'en': 'Phase 2',
   },
   'lng-presale': {
-    'es': 'Realizar la Preventa',
-    'en': 'Conduct the Presale',
+    'es': 'Lanzamiento justo en Pump Fun',
+    'en': 'Fair launch on Pump Fun',
   },
   'lng-liquid': {
-    'es': 'Crear el Liquidity Pool y quemarlo al instante',
-    'en': 'Create the Liquidity Pool and burn it immediately',
+    'es': 'Llegar a Raydium lo antes posible',
+    'en': 'Reach Raydium as soon as possible',
   },
-  'lng-solana': {
-    'es': 'Lanzamiento de $RODOLFO en Solana',
-    'en': 'Launch of $RODOLFO on Solana',
-  },
+  // 'lng-solana': {
+  //   'es': 'Lanzamiento de $RODOLFO en Solana',
+  //   'en': 'Launch of $RODOLFO on Solana',
+  // },
   'lng-dex': {
     'es': 'Actualizar todos los datos en DexScreener',
     'en': 'Update all info on DexScreener',
   },
   'lng-jupiter': {
-    'es': 'Verificar nuestro token in Raydium y Jupiter',
-    'en': 'Verify our token on Raydium and Jupiter',
+    'es': 'Verificar nuestro token in Raydium',
+    'en': 'Verify our token on Raydium',
   },
   'lng-pay': {
     'es': 'Marketing de pago en DexScreener',
@@ -109,17 +109,17 @@ export const langArr = {
     'en': 'Votes with our community members on the expansion of the project',
   },
  
-  'lng-teem': {
-    'es': 'Equipo y Developers',
-    'en': 'Team and Developers',
-  },
-  'lng-token_pres': {
-    'es': 'Preventa',
-    'en': 'Presale',
-  },
+  // 'lng-teem': {
+  //   'es': 'Equipo y Marketing',
+  //   'en': 'Team and Marketing',
+  // },
+  // 'lng-token_pres': {
+  //   'es': 'Preventa',
+  //   'en': 'Presale',
+  // },
   'lng-token_mark': {
-    'es': 'Cartera de Marketing',
-    'en': 'Marketing Wallet',
+    'es': 'Equipo y Marketing',
+    'en': 'Team and Marketing',
   },
  
   'lng-plans__title': {
@@ -153,4 +153,8 @@ export const langArr = {
   },
  }
  
- 
+//  EN default language
+// fase 2: lanzamiento en pump fun/ remove 2 first points
+// tokenomiks: all pump fun
+// link tinder: no horndogs here 
+// slider: rodolfo PFP's

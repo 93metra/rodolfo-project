@@ -78,9 +78,10 @@
 
 .horndog-text {
   position: absolute;
-  left: -50%;
+  left: -85%;
   top: clamp(5rem, 4.5599rem + 1.8779vw, 6.25rem);/*100 80*/
-  inline-size: 200px;
+  inline-size: clamp(10.625rem, 9.7321rem + 4.4643vw, 13.75rem);/*220 170*/
   color: red;
   font-family: var(--accent-font);
+  text-align: center;
 }

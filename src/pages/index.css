@@ -9,6 +9,8 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/language/language.css');
 @import url('../blocks/links/links.css');
+@import url('../blocks/scroller/scroller.css');
+
 
 /* =============== root ================ */
 :root {
