@@ -1,6 +1,7 @@
 /* links */
 .links {
-  margin-block-end: 60px;
+  height: auto;
+  margin-block-end: 50px;
 }
 
 .links__title {

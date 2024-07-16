@@ -101,8 +101,8 @@ export const langArr = {
     'en': 'Achieve the goals according to the reached market cap',
   },
   'lng-social': {
-    'es': 'Realizar campañas de marketing de pago en redes sociales',
-    'en': 'Conduct paid marketing campaigns on social media',
+    'es': 'Realizar más campañas de marketing en redes sociales',
+    'en': 'Conduct more marketing campaigns on social media',
   },
   'lng-democrat': {
     'es': 'Votaciones con los miembros de la comunidad sobre la expansión del proyecto',
@@ -153,8 +153,3 @@ export const langArr = {
   },
  }
  
-//  EN default language
-// fase 2: lanzamiento en pump fun/ remove 2 first points
-// tokenomiks: all pump fun
-// link tinder: no horndogs here 
-// slider: rodolfo PFP's

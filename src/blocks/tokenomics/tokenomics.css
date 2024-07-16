@@ -1,7 +1,8 @@
 /* ==========tokenomics============ */
 .tokenomics {
   width: 90%;
-  height: 100vh;
+  height: auto;
+  margin-block-end: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

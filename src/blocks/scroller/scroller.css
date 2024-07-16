@@ -1,6 +1,7 @@
 .scroller_infinite {
   inline-size: 85%;
-  margin-block: 20px;
+  height: auto;
+  margin-block-end: 50px;
 }
 
 .slider-wrapper {
@@ -37,13 +38,13 @@
 }
 
 .slider {
-  inline-size: calc(200px * 14);
+  inline-size: calc(230px * 14);
   /* overflow: hidden; */
   display: flex;
   gap: 30px;  
   padding: 20px;
   align-items: center;
-  animation: scroller 20s linear infinite;
+  animation: scroller 17s linear infinite;
 }
 
 .slider__image {
@@ -66,6 +67,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-200px * 7));
+    transform: translateX(calc(-230px * 7));
   }
 }
