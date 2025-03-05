@@ -1,1 +1,1 @@
-https://93metra.github.io/rodolfo-draft
+### $RODOLFO is a memecoin with no intrinsic value or expectation of financial return. $RODOLFO is completely useless and was created for recreational and entertainment purposes. By purchasing $RODOLFO, you agree to have read this disclaimer.
