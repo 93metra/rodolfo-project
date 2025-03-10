@@ -23,9 +23,8 @@
 .pie-chart {
   border-radius: 50%;
   inline-size: clamp(18.75rem, 15.1786rem + 7.4405vw, 21.875rem);/*350 300*/
-  /* background-image: conic-gradient(#EA954F 70%, #976B40 70%, #976B40 85%, #FFFADE 85%, #FFFADE 95%, #2D024E 95%, #2D024E 100%); */
-  background-image: conic-gradient(#FFFADE 5%, #EA954F 5%, #EA954F 100%);
-  /* transform: rotateY(180deg); */
+  background-image: conic-gradient(#EA954F 70%, #976B40 70%, #976B40 85%, #FFFADE 85%, #FFFADE 95%, #2D024E 95%, #2D024E 100%);
+  /* background-image: conic-gradient(#FFFADE 5%, #EA954F 5%, #EA954F 100%); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,9 +84,11 @@
 .preventa {
   color: #FFFADE;
 }
+
 .liquidity {
   color: #EA954F;
 }
+
 .team {
   color: #FFFADE;
 }

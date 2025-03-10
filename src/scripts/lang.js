@@ -109,14 +109,14 @@ export const langArr = {
     'en': 'Votes with our community members on the expansion of the project',
   },
  
-  // 'lng-teem': {
-  //   'es': 'Equipo y Marketing',
-  //   'en': 'Team and Marketing',
-  // },
-  // 'lng-token_pres': {
-  //   'es': 'Preventa',
-  //   'en': 'Presale',
-  // },
+  'lng-team': {
+    'es': 'Equipo y Marketing',
+    'en': 'Team and Marketing',
+  },
+  'lng-token_pres': {
+    'es': 'Preventa',
+    'en': 'Presale',
+  },
   'lng-token_mark': {
     'es': 'Equipo y Marketing',
     'en': 'Team and Marketing',
