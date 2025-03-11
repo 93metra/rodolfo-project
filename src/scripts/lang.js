@@ -110,16 +110,16 @@ export const langArr = {
   },
  
   'lng-team': {
-    'es': 'Equipo y Marketing',
-    'en': 'Team and Marketing',
+    'es': 'Equipo y Developers',
+    'en': 'Team and Developers',
   },
-  'lng-token_pres': {
+  'lng-token_presale': {
     'es': 'Preventa',
     'en': 'Presale',
   },
-  'lng-token_mark': {
-    'es': 'Equipo y Marketing',
-    'en': 'Team and Marketing',
+  'lng-token_marketing': {
+    'es': 'Cartera de Marketing',
+    'en': 'Marketing Wallet',
   },
  
   'lng-plans__title': {

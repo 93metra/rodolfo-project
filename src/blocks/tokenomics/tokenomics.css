@@ -73,6 +73,10 @@
   font-weight: bold;
 }
 
+.chart__text {
+  font-weight: 500;
+}
+
 .team {
   color: #EA954F;
 }
@@ -91,10 +95,6 @@
 
 .team {
   color: #FFFADE;
-}
-
-.chart__text {
-  font-weight: 500;
 }
 
 /* ==============keyframes================= */
