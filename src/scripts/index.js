@@ -1,4 +1,4 @@
-import '../pages/index.css';
+import '../style/style.css';
 import { langArr } from '../scripts/lang';
 
 // constants
